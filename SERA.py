@@ -136,7 +136,7 @@ if selected_language == "English":
     st.header("Technical Details")
     st.markdown("""
     - **YOLO-V11 Model**: Optimized deep learning network for processing spinal endoscopic images in real-time.
-    - **Dataset**: 3,054 frames collected from 6 patients.
+    - **Dataset**: 30,054 frames collected from 60 patients.
       - Annotated with 9 classes (Bleeding Focus, Vessel, Instrument, Bone, Ligamentum flavum, etc.).
     - **Data Augmentation**: Flipping, rotation, Gaussian noise, and brightness adjustments.
     - **Training**: 300 epochs across 5 models (n, s, m, l, x).
@@ -247,7 +247,7 @@ else:
     st.header("기술 세부사항")
     st.markdown("""
     - **YOLO-V11 모델 사용**: 최적화된 딥러닝 네트워크를 활용하여 실시간으로 척추 내시경 영상을 처리.
-    - **데이터셋**: 6명의 환자에서 수집된 3,054개의 프레임을 사용.
+    - **데이터셋**: 60명의 환자에서 수집된 30,054개의 프레임을 사용.
       - 9개의 클래스 (Bleeding Focus, Vessel, instrument, bone, Ligamentum flavum 등)로 주석 처리.
     - **데이터 증강**: 플리핑, 회전, 가우시안 노이즈 및 밝기 조정을 사용.
     - **훈련**: 5가지 모델(n, s, m, l, x)로 300 epochs 동안 학습.
